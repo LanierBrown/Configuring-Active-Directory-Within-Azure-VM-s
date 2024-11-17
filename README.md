@@ -121,15 +121,32 @@ A **resource group** is a logical container for your Azure resources. To create 
 
 ### ⑦ Configure Administrative Account
 1️⃣ Provide a username and password for accessing the VM.  
+![Screenshot 2024-11-17 110535](https://github.com/user-attachments/assets/6f837432-6201-4374-840a-82c73a927a16)
+
+-The Administrator Account credentials are what youre gonna use to log into the (VM) using Remote Desktop
+
 2️⃣ Ensure the inbound port rules allow **RDP (for Windows)** or **SSH (for Linux)**.
 
-   
+   ![Screenshot 2024-11-17 111030](https://github.com/user-attachments/assets/67663114-3db7-487b-be22-c34b646e5185)
+
+  -The Virtual Machine we will be accessing is configured with Windows 10 Pro and utilizes Remote Desktop Protocol (RDP) on port 3389 for remote connectivity.
+
 
 ---
 
 ### ⑧ Review and Create
-1️⃣ Click on the **Review + Create** button.  
-2️⃣ Review your configuration details.  
+1️⃣ Click on the **Review + Create** button. 
+
+![Screenshot 2024-11-17 111739](https://github.com/user-attachments/assets/6ae847b7-e919-4461-a3ee-f2f57a352069)
+
+-Dont forget to check the licensing agreenment 
+
+ 
 3️⃣ Click **Create** to deploy the virtual machine.
 
-   ![Step 8 Image](images/step8_review_create.png)
+![Screenshot 2024-11-17 112236](https://github.com/user-attachments/assets/3b35de31-300c-4442-9a0b-9aec9994c05a)
+
+
+   # Project Completed! 🎉
+
+We've successfully created and deployed the virtual machine. Great job!
