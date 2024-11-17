@@ -6,7 +6,7 @@
 </p>
 
 <h1> Creating A Virtual Machine (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This tutorial provides a step-by-step guide to creating a Virtual Machine (VM) in Microsoft Azure..<br />
 
 
 
