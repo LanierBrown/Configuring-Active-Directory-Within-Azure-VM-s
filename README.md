@@ -6,7 +6,7 @@
 </p>
 
 <h1> Creating A Virtual Machine (Azure)</h1>
-This tutorial provides a step-by-step guide to creating a Virtual Machine (VM) in Microsoft Azure..<br />
+This tutorial provides a comprehensive, step-by-step guide to creating a Virtual Machine (VM) in Microsoft Azure and accessing it for use.<br />
 
 
 
@@ -15,6 +15,9 @@ This tutorial provides a step-by-step guide to creating a Virtual Machine (VM) i
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
+- Resource Groups
+- RDP (Remote Desk Protocol)
+- SSH (Secure Shell)
 
 
 <h2>Operating Systems Used </h2>
@@ -22,38 +25,77 @@ This tutorial provides a step-by-step guide to creating a Virtual Machine (VM) i
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1 - Select a Virtual Machine Image: Choose an operating system (e.g., Windows, Linux) or a custom image to deploy on the VM.
-- Step 2 - Configure VM Size and Resources: Select the appropriate VM size (CPU, memory, storage) based on performance requirements.
-- Step 3 - Set Networking and Security Options: Define the virtual network (VNet), subnet, public IP address (if needed), and security settings (e.g., Network Security Groups).
-- Step 4 - Review and Create: Verify all settings and configurations, then deploy the VM to Azure by clicking "Create."
 
 <h2>Installation Steps</h2>
-<h3>&#9312; Create A Subscription
 
-<p>
-  
-![image](https://github.com/user-attachments/assets/36b99e63-10a7-418a-9280-8c9f1199e301)
+ ① Create a Microsoft Azure Subscription
 
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+1️⃣ Go to the [Azure Free Trial](https://azure.microsoft.com/en-us/free/) or [Azure Pricing](https://azure.microsoft.com/en-us/pricing/) page.  
+2️⃣ Sign in with your Microsoft account.  
+3️⃣ Provide the necessary details, including your payment method and contact information.  
+4️⃣ Complete the setup to activate your subscription.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+   ![Step 1 Image](images/step1_subscription.png)
+
+---
+
+### ② Log in to Azure Portal
+1️⃣ Navigate to the [Azure Portal](https://portal.azure.com).  
+2️⃣ Log in using your Microsoft account credentials.
+
+   ![Step 2 Image](images/step2_portal.png)
+
+---
+
+### ③ Navigate to Virtual Machines
+1️⃣ In the Azure portal, search for **Virtual Machines** in the top search bar.  
+2️⃣ Click on **Virtual Machines** from the results.
+
+   ![Step 3 Image](images/step3_vm_page.png)
+
+---
+
+### ④ Create a New Virtual Machine
+1️⃣ Click the **+ Create** button.  
+2️⃣ Select **Azure Virtual Machine**.
+
+   ![Step 4 Image](images/step4_create_vm.png)
+
+---
+
+### ⑤ Configure Basic Settings
+1️⃣ Fill in the following details:  
+   - **Subscription**: Choose your Azure subscription.  
+   - **Resource Group**: Select an existing group or create a new one.  
+   - **Virtual Machine Name**: Enter a name for your VM (e.g., `MyAzureVM`).  
+   - **Region**: Select the region closest to you.  
+2️⃣ Click **Next** to proceed.
+
+   ![Step 5 Image](images/step5_basic_settings.png)
+
+---
+
+### ⑥ Choose an Image and Size
+1️⃣ Under the **Image** section, select the operating system (e.g., Windows Server or Ubuntu).  
+2️⃣ Select the VM size based on your needs (e.g., Standard B1s for small workloads).
+
+   ![Step 6 Image](images/step6_image_size.png)
+
+---
+
+### ⑦ Configure Administrative Account
+1️⃣ Provide a username and password for accessing the VM.  
+2️⃣ Ensure the inbound port rules allow **RDP (for Windows)** or **SSH (for Linux)**.
+
+   ![Step 7 Image](images/step7_admin_account.png)
+
+---
+
+### ⑧ Review and Create
+1️⃣ Click on the **Review + Create** button.  
+2️⃣ Review your configuration details.  
+3️⃣ Click **Create** to deploy the virtual machine.
+
+   ![Step 8 Image](images/step8_review_create.png)
