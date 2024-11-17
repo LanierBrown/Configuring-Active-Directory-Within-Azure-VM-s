@@ -16,7 +16,7 @@ This tutorial provides a comprehensive, step-by-step guide to creating a Virtual
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Resource Groups
-- SSH (Secure Shell)
+- RDP (3389)
 
 
 <h2>Operating Systems Used </h2>
