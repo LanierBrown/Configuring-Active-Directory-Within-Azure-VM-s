@@ -16,7 +16,6 @@ This tutorial provides a comprehensive, step-by-step guide to creating a Virtual
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Resource Groups
-- RDP (Remote Desk Protocol)
 - SSH (Secure Shell)
 
 
@@ -87,20 +86,36 @@ A **resource group** is a logical container for your Azure resources. To create 
 ### ⑤ Configure Basic Settings
 1️⃣ Fill in the following details:  
    - **Subscription**: Choose your Azure subscription.  
-   - **Resource Group**: Select an existing group or create a new one.  
+   - **Resource Group**: Select an existing group or create a new one.
+     
+     ![Screenshot 2024-11-17 103909](https://github.com/user-attachments/assets/f1574ff2-b475-461c-b1fa-87959405e584)
+
    - **Virtual Machine Name**: Enter a name for your VM (e.g., `MyAzureVM`).  
    - **Region**: Select the region closest to you.  
 2️⃣ Click **Next** to proceed.
 
-   ![Step 5 Image](images/step5_basic_settings.png)
+  ![Screenshot 2024-11-17 104444](https://github.com/user-attachments/assets/1d739a9c-854a-4fd7-aaf8-5c6a576b1971)
+
 
 ---
 
 ### ⑥ Choose an Image and Size
 1️⃣ Under the **Image** section, select the operating system (e.g., Windows Server or Ubuntu).  
-2️⃣ Select the VM size based on your needs (e.g., Standard B1s for small workloads).
+![Screenshot 2024-11-17 104734](https://github.com/user-attachments/assets/0d142ad5-8e37-4403-ba05-a419cc1e9c0f)
 
-   ![Step 6 Image](images/step6_image_size.png)
+-For this example we are going to be using Windows 10 Pro
+
+
+2️⃣ Select the VM size based on your needs (e.g., Standard B1s for small workloads).
+![Screenshot 2024-11-17 104844](https://github.com/user-attachments/assets/12cf94ea-5d21-44c9-85c3-0ecdf6ba610a)
+
+-If you recieve the error message (This size is currently unavailable in eastus for this subscription: NotAvailableForSubscription) you may need to switch your region in order for the Size to be emplamented correctly.
+
+  ![Screenshot 2024-11-17 105822](https://github.com/user-attachments/assets/9bbd547c-f5b7-46df-b908-106dc8ca3059)
+![Screenshot 2024-11-17 105906](https://github.com/user-attachments/assets/26972379-4a3c-4c03-b846-d5a38611f534)
+
+-In this example I swithced my my region to (Central US) and as you can see the error message went away
+
 
 ---
 
@@ -108,7 +123,7 @@ A **resource group** is a logical container for your Azure resources. To create 
 1️⃣ Provide a username and password for accessing the VM.  
 2️⃣ Ensure the inbound port rules allow **RDP (for Windows)** or **SSH (for Linux)**.
 
-   ![Step 7 Image](images/step7_admin_account.png)
+   
 
 ---
 
