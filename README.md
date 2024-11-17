@@ -33,6 +33,9 @@ This tutorial provides a comprehensive, step-by-step guide to creating a Virtual
 
 
 1️⃣ Go to the [Azure Free Trial](https://azure.microsoft.com/en-us/free/) or [Azure Pricing](https://azure.microsoft.com/en-us/pricing/) page.  
+![Screenshot 2024-11-17 091248](https://github.com/user-attachments/assets/9cce42a5-dd75-405f-b3af-6c8a68093f72)
+
+
 2️⃣ Sign in with your Microsoft account.  
 3️⃣ Provide the necessary details, including your payment method and contact information.  
 4️⃣ Complete the setup to activate your subscription.
