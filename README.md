@@ -43,26 +43,44 @@ This tutorial provides a comprehensive, step-by-step guide to creating a Virtual
 
 -Once you have created your account Sighn into Azure with your new credentials
 
+---
 
+### ③ Create a Resource Group
+A **resource group** is a logical container for your Azure resources. To create one:  
+1️⃣ In the Azure Portal, search for **Resource Groups** in the top search bar.  
+![Screenshot 2024-11-17 101339](https://github.com/user-attachments/assets/0e0da973-765a-478b-baf5-80f265d43ee2)
+
+2️⃣ Click **+ Create** to create a new resource group.  
+![Screenshot 2024-11-17 101439](https://github.com/user-attachments/assets/db8ffbaf-9af5-451c-b266-61875a047084)
+
+3️⃣ Fill in the following details:
+   - **Subscription**: Select your Azure subscription.
+   - **Resource Group Name**: Enter a unique name for your resource group (e.g., `MyResourceGroup`).
+   - **Region**: Choose a region where you want the resources to be located.
+     ![Screenshot 2024-11-17 101916](https://github.com/user-attachments/assets/0629b9bd-3e5f-40dc-acd5-9dd471ba258e)
+
+4️⃣ Click **Review + Create** and then **Create**.
+![Screenshot 2024-11-17 102019](https://github.com/user-attachments/assets/6375c47f-d72d-4fd9-a86e-bae21271e13b)
 
 
 ---
 
 ### ②  Navigate to Virtual Machines
 1️⃣ In the Azure portal, search for **Virtual Machines** .  
-![Screenshot 2024-11-17 095949](https://github.com/user-attachments/assets/3c8511b1-4d33-4b92-9dd8-de75762f5158)
+![Screenshot 2024-11-17 102535](https://github.com/user-attachments/assets/bfa52cda-b1bb-4a7e-b707-5eb945d86ec8)
 
-2️⃣ Click on **Virtual Machines** from the results.
 
-   ![Step 3 Image](images/step3_vm_page.png)
 
 ---
 
 ### ④ Create a New Virtual Machine
 1️⃣ Click the **+ Create** button.  
+![Screenshot 2024-11-17 103013](https://github.com/user-attachments/assets/223ba81e-2aaf-47e0-a185-df8967b6edc9)
+
 2️⃣ Select **Azure Virtual Machine**.
 
-   ![Step 4 Image](images/step4_create_vm.png)
+ ![Screenshot 2024-11-17 103123](https://github.com/user-attachments/assets/093433a5-5138-469f-af37-c6aef0c389a3)
+
 
 ---
 
