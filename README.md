@@ -11,9 +11,6 @@ This tutorial provides a step-by-step guide to creating a Virtual Machine (VM) i
 
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
