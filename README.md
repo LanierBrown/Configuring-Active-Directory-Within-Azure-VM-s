@@ -15,9 +15,7 @@ This tutorial provides a step-by-step guide to creating a Virtual Machine (VM) i
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+
 
 <h2>Operating Systems Used </h2>
 
@@ -26,10 +24,10 @@ This tutorial provides a step-by-step guide to creating a Virtual Machine (VM) i
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1 - Select a Virtual Machine Image: Choose an operating system (e.g., Windows, Linux) or a custom image to deploy on the VM.
+- Step 2 - Configure VM Size and Resources: Select the appropriate VM size (CPU, memory, storage) based on performance requirements.
+- Step 3 - Set Networking and Security Options: Define the virtual network (VNet), subnet, public IP address (if needed), and security settings (e.g., Network Security Groups).
+- Step 4 - Review and Create: Verify all settings and configurations, then deploy the VM to Azure by clicking "Create."
 
 <h2>Deployment and Configuration Steps</h2>
 
